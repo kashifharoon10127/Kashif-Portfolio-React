@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kashif-Portfolio-React/static/css/main.fb35d48d.css",
-    "main.js": "/Kashif-Portfolio-React/static/js/main.ea30ea2a.js",
+    "main.js": "/Kashif-Portfolio-React/static/js/main.cde0a369.js",
     "static/js/488.0ff7d56b.chunk.js": "/Kashif-Portfolio-React/static/js/488.0ff7d56b.chunk.js",
     "static/media/code.jpg": "/Kashif-Portfolio-React/static/media/code.c93b61047910ffc4cf87.jpg",
     "static/media/oliver-pecker-HONJP8DyiSM-unsplash.jpg": "/Kashif-Portfolio-React/static/media/oliver-pecker-HONJP8DyiSM-unsplash.2ca6f3e38bf0402ea62c.jpg",
@@ -10,11 +10,11 @@
     "static/media/my-logo.png": "/Kashif-Portfolio-React/static/media/my-logo.0b7703a5f980d90e516c.png",
     "index.html": "/Kashif-Portfolio-React/index.html",
     "main.fb35d48d.css.map": "/Kashif-Portfolio-React/static/css/main.fb35d48d.css.map",
-    "main.ea30ea2a.js.map": "/Kashif-Portfolio-React/static/js/main.ea30ea2a.js.map",
+    "main.cde0a369.js.map": "/Kashif-Portfolio-React/static/js/main.cde0a369.js.map",
     "488.0ff7d56b.chunk.js.map": "/Kashif-Portfolio-React/static/js/488.0ff7d56b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb35d48d.css",
-    "static/js/main.ea30ea2a.js"
+    "static/js/main.cde0a369.js"
   ]
 }
