@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Grid, Typography, Button, Box } from "@mui/material";
-import profileImage from "../Assets/Images/my-logo.png";
+import profileImage from "../Assets/Images/Blue Minimalist Professional Instagram Profile Picture.png";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       sx={{
         backgroundColor: "#f8f8f8",
         color: "black",
-        py: 8,
+        py: 6,
         minHeight: "90vh",
         display: "flex",
         alignItems: "center",
@@ -17,27 +17,78 @@ const About = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
+     
       <Container maxWidth="lg">
+      {/* <Typography variant="h1">About Me</Typography> */}
+      <Typography
+              variant="h3"
+              // component="h1"
+              sx={{
+                mb: 4,
+                fontWeight: 700,
+                fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" },
+                textAlign: { xs: "center", md: "center" },
+                animation: "fadeInRight 1s ease-in-out",
+              }}
+            >
+              About Me
+            </Typography>
         <Grid container spacing={4} alignItems="center">
           {/* Profile Image */}
-          <Grid item xs={12} md={4} display="flex" justifyContent="center">
+          <Grid item xs={12} md={4} display="flex" justifyContent="center" >
             <Box
-              component="img"
-              src={profileImage}
-              alt="Kashif Haroon"
+            // border={ '1px solid gray'}
+            padding={'8px 20px'}
               sx={{
-                width: { xs: "200px", md: "250px" },
-                height: { xs: "200px", md: "250px" },
-                borderRadius: "50%",
-                boxShadow: 6,
-                border: "4px solid #ff4081",
-                transition: "transform 0.3s ease",
+                borderRadius: "12px",
+                boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
+                // backgroundColor: "white",
+                transition: "box-shadow 0.3s ease",
+                textAlign: "center",
                 animation: "fadeInLeft 1s ease-in-out",
                 "&:hover": {
-                  transform: "scale(1.05)",
+                  boxShadow: "0px 6px 24px rgba(0, 0, 0, 0.15)",
                 },
+                
               }}
-            />
+            >
+              <Box
+                component="img"
+                src={profileImage}
+                alt="Kashif Haroon"
+                sx={{
+                  width: { xs: "100px", md: "150px" },
+                  height: { xs: "100px", md: "150px" },
+                  borderRadius: "50%",
+                  boxShadow: 6,
+                  border: "2px solid #10c8d2",
+                  transition: "transform 0.3s ease",
+                  "&:hover": {
+                    transform: "scale(1.05)",
+                  },
+                }}
+              />
+              <Typography
+                variant="h5"
+                sx={{
+                  mt: 2,
+                  fontWeight: 600,
+                  color: "#333",
+                }}
+              >
+                Kashif Haroon
+              </Typography>
+              <Typography
+                variant="body1"
+                sx={{
+                  mt: 1,
+                  color: "#555",
+                  fontWeight: 500,
+                }}
+              >
+                MERN Stack | React.Js | Node,Js | Express.Js | MongoDb | Git | HTML | CSS | JavaScript |
+              </Typography>
+            </Box>
           </Grid>
 
           {/* About Me Content */}
@@ -45,36 +96,28 @@ const About = () => {
             <Typography
               variant="h3"
               component="h1"
+              color="#10c8d2"
               sx={{
-                mb: 3,
+                mb: 1,
                 fontWeight: 700,
-                fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" },
+                fontSize: { xs: "2rem", sm: "2.5rem", md: "2rem" },
+                textAlign: { xs: "center", md: "left" },
                 animation: "fadeInRight 1s ease-in-out",
               }}
             >
-              About Me
-            </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                mb: 2,
-                fontWeight: 600,
-                color: "#333",
-                animation: "fadeInRight 1.5s ease-in-out",
-              }}
-            >
-              Kashif Haroon
+              Who I Am...!! ?
             </Typography>
             <Typography
               variant="body1"
               sx={{
                 mb: 3,
                 color: "#555",
-                lineHeight: 1.8,
-                animation: "fadeInRight 2s ease-in-out",
+                lineHeight: 1.9,
+                textAlign: { xs: "left", md: "left" },
+                animation: "fadeInRight 1.5s ease-in-out",
               }}
             >
-              Hi, I’m <strong style={{ color: "#ff4081" }}>Kashif Haroon</strong>, a motivated MERN Full Stack Developer with
+              Hi, I’m <strong style={{ color: "#10c8d2" }}>Kashif Haroon</strong>, a motivated MERN Full Stack Developer with
               hands-on experience in building modern web applications.
               <br />
               My expertise lies in:
@@ -100,7 +143,7 @@ const About = () => {
             </Typography>
 
             {/* Buttons */}
-            <Box sx={{ display: "flex", gap: 2 }}>
+            <Box sx={{ display: "flex", gap: {xs : 1.5 , md : 2}, justifyContent: { xs: "center", md: "flex-start" } }}>
               <Button
                 variant="contained"
                 color="primary"
@@ -113,10 +156,10 @@ const About = () => {
                   borderRadius: "25px",
                   textTransform: "none",
                   transition: "all 0.3s ease",
-                  backgroundColor: "#ff4081",
+                  backgroundColor: "#10c8d2",
                   "&:hover": {
                     transform: "scale(1.05)",
-                    backgroundColor: "#e91e63",
+                    backgroundColor: "#333",
                   },
                 }}
               >
@@ -137,7 +180,7 @@ const About = () => {
                   backgroundColor: "#333",
                   "&:hover": {
                     transform: "scale(1.05)",
-                    backgroundColor: "#555",
+                    backgroundColor: "#10c8d2",
                   },
                 }}
               >
